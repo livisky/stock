@@ -1,0 +1,44 @@
+<html> 
+<head> 
+<title>getStock</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> 
+<script type="text/javascript" src="http://qt.gtimg.cn/q=sh000001"></script>
+<link rel="stylesheet" type="text/css" href="css/stock.css">
+</head> 
+<body onLoad="stock.setVal(response,response2);"> 
+
+	<div class="main">
+	<div style="margin-left:31%;margin-bottom:20px;" >上证：<span id="szzs"></span>&nbsp;&nbsp;&nbsp;&nbsp;涨幅：<span id="szzf"></span></div>
+		<div class="add">
+			<div class="add_region">
+				<textarea class="addtext" id="addtext"></textarea>
+				<div><button class="addbtn">添加</button><button class="reset">清空</button></div>
+				<div><button class="jxstock">精选</button><button class="cxgstock">连板股</button></div>
+				<div><button class="ztstock">涨停板</button><button class="mrstock">买入</button></div>
+				<button class="mystock">票池</button><button class="pxstock">排序</button>
+			</div>
+			<p class="txt">说明：上证的票以'sh'开头,加上票的代码;深证的票<br/>以'sz'开头，加上票的代码。批量查询，中间以逗号隔开如：<br/>关注代码：601377,000166,600415,600256,600169,600695,000001
+			</p>
+		</div>
+
+		<div class="list">
+		</div>
+	</div>
+	<div id="jxstock" style="display:none">002212,300010,601008,002129,600031,601555,601299,600705,002609,300033,002561,600169,601186,300092,000962,600456,002325,600567,002152,002270,600112,000626,300359,000776,600528,601628,002415,000859,002190,600999,603017,002550,300139,000976,000613,000931,600137,600317,601179,002564,600400,000410,600360,603939,300353</div>
+
+	<div id="cxgstock" style="display:none">300413,300418,300364,603601,002739,300416,300419,601069,603600,300415,300417,603686,603678,603899,002734,603698,603611,603799,300399,601519,300350</div>
+
+	<div id="mystock" style="display:none">600317,601669,601186,002415,002236,002130,600633,300033,300392,601800,600022,600526,600739,000402,601377,600999,600369,300104,600717,000825,000425,000686,600425,601688,600820,002190,300010,600266,002594,300024,600199,002564,002051,600320,600599,002337,600486,002706,000776,000709,601939,601398,601005,600016,600372,600970,002051,600321,601166,000939,600801,000877,600783,600068,600221,600515,300201,601012,600227,600468,600291,000680,601169</div>	
+
+	<div id="ztstock" style="display:none">000875,300254,600623,002326,002657,300175,002672,300433,300282,002641,601186,600804,300144,002609,300399,002152</div>
+
+	<div id="mrstock" style="display:none">002683,002024,600030,000709,000825,601390,600157,600317,600633,601688,300024,601398,600016,600321,601166</div>
+</body> 
+</html>
+<!-- http://blog.csdn.net/simon803/article/details/7784682 -->
+<!-- http://hq.sinajs.cn/list= -->
+<!-- http://image.sinajs.cn/newchart/monthly/n/sh000001.gif -->
+<!-- http://data.eastmoney.com/stock/tradedetail.html -->
+<!-- 点评http://data.eastmoney.com/stockcomment/600030.html-->

@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+.tr_cls{ 
+	height:30px; 
+	font-size:16px; 
+	font-family:"Times New Roman", Times, serif; 
+	/*background-color:#FFFFCC */
+}
+.tr_clsort{ 
+	height:30px; 
+	font-size:16px; 
+	font-family:"Times New Roman", Times, serif; 
+	/*background-color:#FFFFCC */
+}
+.main{padding-top: 100px;}
+.add{width: 30%;float: left;margin-left: 1%;}
+.add_region{padding-left: 5%}
+.addtext{width: 300px;height: 200px;resize:none;} 
+.list{float: left;}
+.addbtn,.reset,.mystock,.jxstock,.ztstock,.pxstock,.mrstock,.cxgstock{width: 130px;height: 30px;line-height:20px;background: #ccc;text-align: center;margin-left: 20px;margin-top: 20px;border-radius: 6px; cursor: pointer;color: #fff;}
+.reset{margin-left: 10px;}
+.txt{font-size: 12px;text-indent: 25px;line-height: 25px;}
+.red{color: red}
+.green{color: green}
+.gname{float: left;line-height: 45px;padding-left: 16px;}
+.chart{float: left;line-height: 45px;margin-left: 8px;}
+.chart ul li{list-style: none;font-size: 12px;float: left;padding: 0px 2px;}
+.chart ul li a{text-decoration: none;color: #000;}
